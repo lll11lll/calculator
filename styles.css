@@ -1,0 +1,52 @@
+
+body {
+    background-color: rgba(7, 7, 7, 0.829);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    background-color: rgb(48, 46, 46);
+    align-items: center;
+    justify-content: center;
+    width: 1250px;
+    height: 800px;
+    margin: 25px;
+}
+
+.calculatorBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    border: solid 4px black;
+    width: 400px;
+    height: 500px;
+}
+.inputField {
+    border: solid 4px black;
+    background-color: black;
+    width: 350px;
+    height: 50px;
+    margin: 25px;
+    padding: 10px;
+}
+.buttonField {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid 4px black;
+    width: 350px;
+    height: 350px;
+    margin: 25px;
+    margin-top: 0;
+    padding: 10px;
+
+}
+.whiteBG {
+    background: white;
+}
