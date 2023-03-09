@@ -26,13 +26,23 @@ body {
     width: 400px;
     height: 500px;
 }
-.inputField {
+.inputField{
     border: solid 4px black;
-    background-color: black;
     width: 350px;
     height: 50px;
     margin: 25px;
     padding: 10px;
+}
+input{
+    border: solid 4px black;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    width: 350px;
+    height: 50px;
+    margin: 25px;
+    padding: 10px;
+    text-align: end;
 }
 .buttonField {
     display: flex;
@@ -49,4 +59,9 @@ body {
 }
 .whiteBG {
     background: white;
+}
+
+.off {
+    background-color: red;
+    color: red;
 }
