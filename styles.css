@@ -26,13 +26,7 @@ body {
     width: 400px;
     height: 500px;
 }
-.inputField{
-    border: solid 4px black;
-    width: 350px;
-    height: 50px;
-    margin: 25px;
-    padding: 10px;
-}
+
 input{
     border: solid 4px black;
     background-color: green;
@@ -44,6 +38,9 @@ input{
     padding: 10px;
     text-align: end;
 }
+
+
+
 .buttonField {
     display: flex;
     justify-content: space-around;
@@ -57,8 +54,39 @@ input{
     padding: 10px;
 
 }
-.whiteBG {
-    background: white;
+
+.setting {
+    border: solid black 2px;
+    width: 130px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.equal {
+    border: solid black 2px;
+    color: white;
+    background-color: grey;
+    width: 130px;
+    height: 60px;
+    font-size: 20px;
+}
+.operations {
+    border: solid black 2px;
+    color: white;
+    background-color: grey;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.numberClass {
+    border: solid black 2px;
+    color: white;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+
 }
 
 .off {
